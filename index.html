@@ -1,32 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREMKUMAR P || Portfolio website</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="'stylesheet">
+    <!-- Boxicon CSS link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <script src="script.js"></script>
-    <title>My Portfolio</title>
 </head>
+
 <body>
+
     <div class="overlay"></div>
+
     <header>
-        <a href="#contact" class="logo"><span>Mr.</span>Kumaravel</a>
-        <ul>
-            <a href="#Home">Home</a>
-            <a href="#About">About-Me</a>
-            <a href="#contact">Projects</a>
+        <a href="#contact" class="logo"><span>MR </span>PREM</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="right-header">
+            <a href="#home" class="btn">Hi, Welcome to the Site <i class='bx bx-message-dots'></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <h1>WELCOME!</h1>
-        <h1>I am Kumaravel</h1>
-    </main>
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome To my World</h3>
+            <h1>Hi, I'm Premkumar Perumal</h1>
+            <div class="text-animate">
+                <h2>Web Developer</h2>
+            </div>
+            <p>"Building the future, one line of code at a time. As a full-stack developer, I bridge the gap between design and function, crafting seamless experiences from front-end to back-end."</p>
+            <div class="btn-box">
+                <a href="mailto:premkumarperumal232@gmail.com" class="btn">Hire Me Now! <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="img/cvv.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.instagram.com/mr.premofficial_11"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="https://github.com/23CABPREMKUMARP?tab=repositories"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="https://x.com/mrpremofficial"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="https://www.linkedin.com/in/premkumar-perumal"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="img/ki.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>I'm a Full-Stack Developer and an Animation Designer</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-       
-    </footer>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/image-6.png" alt="" class="aboutHero">
+            <div class="showcase-ring">
+                <img src="shapes/ring.png" class="ring">
+                <img src="shapes/circle.png" class="circle">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>Hello! I'm a passionate and versatile Full-Stack Developer</h3>
+            <p>I'm a Full-Stack Developer with a strong foundation in building dynamic, user-friendly web applications. I specialize in designing and implementing end-to-end solutions that seamlessly integrate front-end aesthetics with back-end functionality.</p>
+            <div class="about-btn">
+                <button class="active">Main Skills</button>
+                <button>Soft Skills</button>
+                <button>Awards</button>
+                <button>Education</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                        <p>User Experience Design - UI / UX</p>
+                        <span>Delight the user and make it work.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Web and App Development</p>
+                        <span>Completed a lot of complicated work in web development.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Interaction Design - Animation</p>
+                        <span>Animations are the best way to attract users.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="img/cvv.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
